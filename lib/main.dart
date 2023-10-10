@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whats_copy/screens/chats_page.dart';
+import 'package:whats_copy/screens/home.dart';
 
 void main() {
   runApp(const MainApp());
@@ -24,7 +24,7 @@ class MainApp extends StatelessWidget {
     };
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const ChatsPage(),
+      home: const HomePage(),
       theme: ThemeData(
         primarySwatch: MaterialColor(0xFF008069, color),
       ),

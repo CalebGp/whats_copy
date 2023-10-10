@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:whats_copy/screens/chats.dart';
 
-class ChatsPage extends StatelessWidget {
-  const ChatsPage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +49,7 @@ class ChatsPage extends StatelessWidget {
               indicatorWeight: 2,
               labelStyle:
                   GoogleFonts.roboto(fontSize: 14, fontWeight: FontWeight.w700),
-              tabs: [
+              tabs: const [
                 Tab(
                   text: "CHATS",
                 ),
@@ -62,7 +63,11 @@ class ChatsPage extends StatelessWidget {
             ),
           ),
           body: TabBarView(
-            children: [],
+            children: [
+              const ChatsPage(),
+              Container(),
+              Container(),
+            ],
           )),
     );
   }
