@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:whats_copy/screens/chats.dart';
+import 'package:whats_copy/screens/chats/list.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

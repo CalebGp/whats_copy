@@ -25,7 +25,7 @@ class ContactService {
     _contacts.add(Contact(
       name: "Caleb",
       image: const AssetImage("images/caleb.jpg"),
-      lastMessage: "Eu sou gostoso",
+      lastMessage: "É foda",
       lastViewed: "Yesterday",
       numberOfMessages: 0,
     ));
